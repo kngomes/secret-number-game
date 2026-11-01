@@ -7,7 +7,6 @@ The player needs to guess a number between 1 and 100.
 import random
 
 def play_game():
-    '''This function Runs the game'''
     while True:
         secret_number = random.randint(1, 100)
         attempts = 0
